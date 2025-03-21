@@ -1,0 +1,23 @@
+[0.015s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf': /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subp3d_pubtf -- -j16 -l16
+[0.080s] [35m[1mConsolidate compiler generated dependencies of target tf_publisher[0m
+[0.136s] [100%] Built target tf_publisher
+[0.144s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf' returned '0': /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subp3d_pubtf -- -j16 -l16
+[0.146s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf': /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/subp3d_pubtf
+[0.151s] -- Install configuration: ""
+[0.152s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/lib/subp3d_pubtf/tf_publisher
+[0.153s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/ament_index/resource_index/package_run_dependencies/subp3d_pubtf
+[0.153s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/ament_index/resource_index/parent_prefix_path/subp3d_pubtf
+[0.153s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/ament_prefix_path.sh
+[0.153s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/ament_prefix_path.dsv
+[0.153s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/path.sh
+[0.153s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/path.dsv
+[0.154s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.bash
+[0.154s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.sh
+[0.154s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.zsh
+[0.154s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.dsv
+[0.154s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/package.dsv
+[0.154s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/ament_index/resource_index/packages/subp3d_pubtf
+[0.154s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/cmake/subp3d_pubtfConfig.cmake
+[0.154s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/cmake/subp3d_pubtfConfig-version.cmake
+[0.154s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/package.xml
+[0.156s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf' returned '0': /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/subp3d_pubtf

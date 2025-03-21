@@ -1,0 +1,31 @@
+[0.010s] Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
+[0.061s] [35m[1mConsolidate compiler generated dependencies of target local_costmap[0m
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/local_costmap.dir/src/local_costmap.cpp.o[0m
+[5.306s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:[m[K In member function ‘[01m[Kvoid LocalCostmap::process_cloud(std_msgs::msg::Header)[m[K’:
+[5.306s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:208:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[5.306s]   208 |                 if ([01;35m[Kmap_x >= 0[m[K && map_x < costmap.info.width && map_y >= 0 && map_y < costmap.info.height)
+[5.306s]       |                     [01;35m[K~~~~~~^~~~[m[K
+[5.306s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:208:71:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+[5.306s]   208 |                 if (map_x >= 0 && map_x < costmap.info.width && [01;35m[Kmap_y >= 0[m[K && map_y < costmap.info.height)
+[5.306s]       |                                                                 [01;35m[K~~~~~~^~~~[m[K
+[13.703s] [100%] [32m[1mLinking CXX executable local_costmap[0m
+[15.012s] [100%] Built target local_costmap
+[15.022s] Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
+[15.031s] Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/local_costmap
+[15.036s] -- Install configuration: ""
+[15.036s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/package_run_dependencies/local_costmap
+[15.036s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/parent_prefix_path/local_costmap
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/ament_prefix_path.sh
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/ament_prefix_path.dsv
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/path.sh
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/path.dsv
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.bash
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.sh
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.zsh
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.dsv
+[15.037s] -- Installing: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/package.dsv
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/packages/local_costmap
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/cmake/local_costmapConfig.cmake
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/cmake/local_costmapConfig-version.cmake
+[15.037s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/package.xml
+[15.039s] Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/local_costmap

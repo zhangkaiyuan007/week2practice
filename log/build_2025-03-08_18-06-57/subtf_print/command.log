@@ -1,0 +1,4 @@
+Invoking command in '/home/robert_kaiyuan/week2practice/build/subtf_print': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/subtf_print -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/subtf_print
+Invoked command in '/home/robert_kaiyuan/week2practice/build/subtf_print' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/subtf_print -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/subtf_print
+Invoking command in '/home/robert_kaiyuan/week2practice/build/subtf_print': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subtf_print -- -j16 -l16
+Invoked command in '/home/robert_kaiyuan/week2practice/build/subtf_print' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subtf_print -- -j16 -l16

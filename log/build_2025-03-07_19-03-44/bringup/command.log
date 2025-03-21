@@ -1,0 +1,4 @@
+Invoking command in '/home/robert_kaiyuan/week2practice/build/bringup': /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/bringup -- -j16 -l16
+Invoked command in '/home/robert_kaiyuan/week2practice/build/bringup' returned '0': /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/bringup -- -j16 -l16
+Invoking command in '/home/robert_kaiyuan/week2practice/build/bringup': /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/bringup
+Invoked command in '/home/robert_kaiyuan/week2practice/build/bringup' returned '0': /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/bringup

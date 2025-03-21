@@ -1,0 +1,17 @@
+[0.042s] Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robert_kaiyuan/week2practice/install/my_map:/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
+[0.251s] [35m[1mConsolidate compiler generated dependencies of target local_costmap[0m
+[0.251s] [ 50%] [32mBuilding CXX object CMakeFiles/local_costmap.dir/src/local_costmap.cpp.o[0m
+[7.963s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:[m[K In member function ‘[01m[Kvoid LocalCostmap::process_cloud(std_msgs::msg::Header)[m[K’:
+[7.964s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:160:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap[m[K’ was not declared in this scope
+[7.964s]   160 |                 [01;31m[Kcostmap[m[K.info.origin.position.x = transform.transform.translation.x-costmapSize/2;
+[7.964s]       |                 [01;31m[K^~~~~~~[m[K
+[7.975s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:190:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kcostmap[m[K’ was not declared in this scope
+[7.975s]   190 |             publisher_raw_costmap->publish([01;31m[Kcostmap[m[K);
+[7.975s]       |                                            [01;31m[K^~~~~~~[m[K
+[7.982s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:148:50:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kheader[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[7.982s]   148 |         void process_cloud([01;35m[Kstd_msgs::msg::Header header[m[K)
+[7.982s]       |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[15.257s] gmake[2]: *** [CMakeFiles/local_costmap.dir/build.make:76: CMakeFiles/local_costmap.dir/src/local_costmap.cpp.o] Error 1
+[15.258s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/local_costmap.dir/all] Error 2
+[15.258s] gmake: *** [Makefile:146: all] Error 2
+[15.264s] Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robert_kaiyuan/week2practice/install/my_map:/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16

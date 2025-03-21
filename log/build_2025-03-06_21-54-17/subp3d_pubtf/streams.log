@@ -1,0 +1,70 @@
+[0.017s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/subp3d_pubtf -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/subp3d_pubtf
+[0.357s] -- The C compiler identification is GNU 11.4.0
+[1.148s] -- The CXX compiler identification is GNU 11.4.0
+[1.664s] -- Detecting C compiler ABI info
+[1.925s] -- Detecting C compiler ABI info - done
+[1.929s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.937s] -- Detecting C compile features
+[1.937s] -- Detecting C compile features - done
+[1.941s] -- Detecting CXX compiler ABI info
+[2.206s] -- Detecting CXX compiler ABI info - done
+[2.211s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.211s] -- Detecting CXX compile features
+[2.212s] -- Detecting CXX compile features - done
+[2.239s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.362s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.458s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[2.736s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.745s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.759s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.780s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.801s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.866s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.872s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.007s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.496s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.022s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.036s] -- Looking for pthread.h
+[12.389s] -- Looking for pthread.h - found
+[12.390s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[12.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[12.726s] -- Found Threads: TRUE  
+[12.806s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[12.850s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[12.992s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.046s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[13.046s] -- Configured cppcheck include dirs: 
+[13.046s] -- Configured cppcheck exclude dirs and/or files: 
+[13.046s] -- Added test 'lint_cmake' to check CMake code style
+[13.047s] -- Added test 'uncrustify' to check C / C++ code style
+[13.047s] -- Configured uncrustify additional arguments: 
+[13.048s] -- Added test 'xmllint' to check XML markup files
+[13.049s] -- Configuring done
+[13.062s] -- Generating done
+[13.068s] -- Build files have been written to: /home/robert_kaiyuan/week2practice/build/subp3d_pubtf
+[13.083s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/subp3d_pubtf -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/subp3d_pubtf
+[13.085s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subp3d_pubtf -- -j16 -l16
+[13.125s] [ 50%] [32mBuilding CXX object CMakeFiles/tf_publisher.dir/src/tf_publisher.cpp.o[0m
+[21.101s] [100%] [32m[1mLinking CXX executable tf_publisher[0m
+[21.679s] [100%] Built target tf_publisher
+[21.688s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subp3d_pubtf -- -j16 -l16
+[21.690s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/subp3d_pubtf
+[21.694s] -- Install configuration: ""
+[21.695s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/lib/subp3d_pubtf/tf_publisher
+[21.699s] -- Set runtime path of "/home/robert_kaiyuan/week2practice/install/subp3d_pubtf/lib/subp3d_pubtf/tf_publisher" to ""
+[21.699s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/ament_index/resource_index/package_run_dependencies/subp3d_pubtf
+[21.699s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/ament_index/resource_index/parent_prefix_path/subp3d_pubtf
+[21.700s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/ament_prefix_path.sh
+[21.700s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/ament_prefix_path.dsv
+[21.700s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/path.sh
+[21.700s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/path.dsv
+[21.701s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.bash
+[21.701s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.sh
+[21.701s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.zsh
+[21.702s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.dsv
+[21.702s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/package.dsv
+[21.702s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/ament_index/resource_index/packages/subp3d_pubtf
+[21.704s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/cmake/subp3d_pubtfConfig.cmake
+[21.704s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/cmake/subp3d_pubtfConfig-version.cmake
+[21.704s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/package.xml
+[21.708s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/subp3d_pubtf

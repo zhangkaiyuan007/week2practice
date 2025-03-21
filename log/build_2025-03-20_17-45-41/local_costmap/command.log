@@ -1,0 +1,6 @@
+Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/local_costmap -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/local_costmap
+Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/local_costmap -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/local_costmap
+Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
+Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
+Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/local_costmap
+Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/local_costmap

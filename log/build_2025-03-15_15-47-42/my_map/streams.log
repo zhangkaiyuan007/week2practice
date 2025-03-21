@@ -1,0 +1,24 @@
+[0.533s] Invoking command in '/home/robert_kaiyuan/week2practice/src/my_map': PYTHONPATH=/home/robert_kaiyuan/week2practice/build/my_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robert_kaiyuan/week2practice/install/my_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_map build --build-base /home/robert_kaiyuan/week2practice/build/my_map/build install --record /home/robert_kaiyuan/week2practice/build/my_map/install.log --single-version-externally-managed install_data
+[0.676s] running egg_info
+[0.676s] writing ../../build/my_map/my_map.egg-info/PKG-INFO
+[0.676s] writing dependency_links to ../../build/my_map/my_map.egg-info/dependency_links.txt
+[0.676s] writing entry points to ../../build/my_map/my_map.egg-info/entry_points.txt
+[0.676s] writing requirements to ../../build/my_map/my_map.egg-info/requires.txt
+[0.677s] writing top-level names to ../../build/my_map/my_map.egg-info/top_level.txt
+[0.678s] reading manifest file '../../build/my_map/my_map.egg-info/SOURCES.txt'
+[0.678s] writing manifest file '../../build/my_map/my_map.egg-info/SOURCES.txt'
+[0.678s] running build
+[0.678s] running build_py
+[0.678s] copying my_map/my_map.py -> /home/robert_kaiyuan/week2practice/build/my_map/build/lib/my_map
+[0.679s] running install
+[0.679s] running install_lib
+[0.680s] copying /home/robert_kaiyuan/week2practice/build/my_map/build/lib/my_map/my_map.py -> /home/robert_kaiyuan/week2practice/install/my_map/lib/python3.10/site-packages/my_map
+[0.680s] byte-compiling /home/robert_kaiyuan/week2practice/install/my_map/lib/python3.10/site-packages/my_map/my_map.py to my_map.cpython-310.pyc
+[0.681s] running install_data
+[0.681s] running install_egg_info
+[0.682s] removing '/home/robert_kaiyuan/week2practice/install/my_map/lib/python3.10/site-packages/my_map-0.0.0-py3.10.egg-info' (and everything under it)
+[0.683s] Copying ../../build/my_map/my_map.egg-info to /home/robert_kaiyuan/week2practice/install/my_map/lib/python3.10/site-packages/my_map-0.0.0-py3.10.egg-info
+[0.683s] running install_scripts
+[0.695s] Installing my_map script to /home/robert_kaiyuan/week2practice/install/my_map/lib/my_map
+[0.695s] writing list of installed files to '/home/robert_kaiyuan/week2practice/build/my_map/install.log'
+[0.718s] Invoked command in '/home/robert_kaiyuan/week2practice/src/my_map' returned '0': PYTHONPATH=/home/robert_kaiyuan/week2practice/build/my_map/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/robert_kaiyuan/week2practice/install/my_map/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_map build --build-base /home/robert_kaiyuan/week2practice/build/my_map/build install --record /home/robert_kaiyuan/week2practice/build/my_map/install.log --single-version-externally-managed install_data

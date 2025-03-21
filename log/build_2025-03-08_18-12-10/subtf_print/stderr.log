@@ -1,0 +1,8 @@
+In file included from [01m[K/home/robert_kaiyuan/week2practice/src/subtf_print/src/subtf_print.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/transform_listener.h:40:10:[m[K [01;31m[Kfatal error: [m[Ktf2/buffer_core.hpp: No such file or directory
+   40 | #include [01;31m[K"tf2/buffer_core.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/subtf_print.dir/build.make:76: CMakeFiles/subtf_print.dir/src/subtf_print.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/subtf_print.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

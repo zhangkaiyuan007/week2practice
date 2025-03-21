@@ -1,0 +1,10 @@
+/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/uninstall.dir
+/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/local_costmap_uninstall.dir
+/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/local_costmap.dir
+/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/test.dir
+/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/edit_cache.dir
+/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/rebuild_cache.dir
+/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/list_install_components.dir
+/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/install.dir
+/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/install/local.dir
+/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/install/strip.dir

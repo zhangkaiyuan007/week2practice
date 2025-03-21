@@ -1,0 +1,25 @@
+[0.030s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subtf_print': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subtf_print -- -j16 -l16
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/subtf_print.dir/src/subtf_print.cpp.o[0m
+[3.387s] [100%] [32m[1mLinking CXX executable subtf_print[0m
+[3.874s] [100%] Built target subtf_print
+[3.884s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subtf_print' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subtf_print -- -j16 -l16
+[3.886s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subtf_print': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/subtf_print
+[3.891s] -- Install configuration: ""
+[3.892s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/lib/subtf_print/subtf_print
+[3.893s] -- Set runtime path of "/home/robert_kaiyuan/week2practice/install/subtf_print/lib/subtf_print/subtf_print" to ""
+[3.894s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/ament_index/resource_index/package_run_dependencies/subtf_print
+[3.894s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/ament_index/resource_index/parent_prefix_path/subtf_print
+[3.895s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/environment/ament_prefix_path.sh
+[3.896s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/environment/ament_prefix_path.dsv
+[3.896s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/environment/path.sh
+[3.896s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/environment/path.dsv
+[3.897s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/local_setup.bash
+[3.897s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/local_setup.sh
+[3.897s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/local_setup.zsh
+[3.898s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/local_setup.dsv
+[3.898s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/package.dsv
+[3.898s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/ament_index/resource_index/packages/subtf_print
+[3.898s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/cmake/subtf_printConfig.cmake
+[3.899s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/cmake/subtf_printConfig-version.cmake
+[3.899s] -- Installing: /home/robert_kaiyuan/week2practice/install/subtf_print/share/subtf_print/package.xml
+[3.900s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subtf_print' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/subtf_print

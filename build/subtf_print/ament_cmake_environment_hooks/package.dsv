@@ -1,0 +1,4 @@
+source;share/subtf_print/local_setup.bash
+source;share/subtf_print/local_setup.dsv
+source;share/subtf_print/local_setup.sh
+source;share/subtf_print/local_setup.zsh

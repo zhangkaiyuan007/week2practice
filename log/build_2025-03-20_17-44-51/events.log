@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000757] (-) JobUnselected: {'identifier': 'bringup'}
+[0.000846] (-) JobUnselected: {'identifier': 'my_map'}
+[0.000920] (-) JobUnselected: {'identifier': 'subp3d_pubtf'}
+[0.001032] (-) JobUnselected: {'identifier': 'subtf_print'}
+[0.001082] (local_costmap) JobQueued: {'identifier': 'local_costmap', 'dependencies': OrderedDict()}
+[0.001130] (local_costmap) JobStarted: {'identifier': 'local_costmap'}
+[0.009168] (local_costmap) JobProgress: {'identifier': 'local_costmap', 'progress': 'cmake'}
+[0.010939] (local_costmap) Command: {'cmd': ['/usr/bin/cmake', '/home/robert_kaiyuan/week2practice/src/local_costmap', '-DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/local_costmap'], 'cwd': '/home/robert_kaiyuan/week2practice/build/local_costmap', 'env': OrderedDict([('USER', 'robert_kaiyuan'), ('GIT_ASKPASS', '/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/robert_kaiyuan'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f832d6fa-703c-4605-ac2b-ed94b0b942d4.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/robert_kaiyuan/.vscode-server/extensions/ms-python.debugpy-2025.4.1/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'robert_kaiyuan'), ('NAME', 'ThinkPad'), ('WSL_INTEROP', '/run/WSL/435_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('TERM', 'xterm-256color'), ('PATH', '/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/robert_kaiyuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.5.11-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/rober/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Node/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/NetSarang/Xshell 8/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/:/mnt/d/workspaces/Scoop/shims:/mnt/c/Users/rober/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rober/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Net_Program/Net_Ollama:/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.5.11-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/rober/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Node/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/NetSarang/Xshell 8/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/:/mnt/d/workspaces/Scoop/shims:/mnt/c/Users/rober/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rober/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Net_Program/Net_Ollama:/mnt/c/Users/rober/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/tex:/mnt/c/Users/rober/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rober/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/home/robert_kaiyuan/.vscode-server/extensions/ms-python.debugpy-2025.4.1/bundled/scripts/noConfigScripts:/home/robert_kaiyuan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robert_kaiyuan/.vscode-server/extensions/ms-python.debugpy-2025.4.1/.noConfigDebugAdapterEndpoints/endpoint-648064f29ca2937e.txt'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8a493ff4e0.sock'), ('TERM_PROGRAM', 'vscode'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robert_kaiyuan/week2practice/build/local_costmap'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up')]), 'shell': False}
+[0.099813] (-) TimerEvent: {}
+[0.200460] (-) TimerEvent: {}
+[0.300875] (-) TimerEvent: {}
+[0.401237] (-) TimerEvent: {}
+[0.450333] (local_costmap) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.501401] (-) TimerEvent: {}
+[0.601810] (-) TimerEvent: {}
+[0.702153] (-) TimerEvent: {}
+[0.802566] (-) TimerEvent: {}
+[0.902992] (-) TimerEvent: {}
+[1.003426] (-) TimerEvent: {}
+[1.103807] (-) TimerEvent: {}
+[1.204245] (-) TimerEvent: {}
+[1.304635] (-) TimerEvent: {}
+[1.405158] (-) TimerEvent: {}
+[1.440656] (local_costmap) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.505362] (-) TimerEvent: {}
+[1.605750] (-) TimerEvent: {}
+[1.706126] (-) TimerEvent: {}
+[1.806485] (-) TimerEvent: {}
+[1.906868] (-) TimerEvent: {}
+[2.007311] (-) TimerEvent: {}
+[2.044401] (local_costmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.107464] (-) TimerEvent: {}
+[2.207881] (-) TimerEvent: {}
+[2.308276] (-) TimerEvent: {}
+[2.382236] (local_costmap) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.386332] (local_costmap) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.391543] (local_costmap) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.392695] (local_costmap) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.396215] (local_costmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.408393] (-) TimerEvent: {}
+[2.508710] (-) TimerEvent: {}
+[2.609085] (-) TimerEvent: {}
+[2.709495] (-) TimerEvent: {}
+[2.718171] (local_costmap) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.725370] (local_costmap) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.725759] (local_costmap) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.725979] (local_costmap) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.809604] (-) TimerEvent: {}
+[2.909996] (-) TimerEvent: {}
+[3.010453] (-) TimerEvent: {}
+[3.110847] (-) TimerEvent: {}
+[3.211200] (-) TimerEvent: {}
+[3.311580] (-) TimerEvent: {}
+[3.412116] (-) TimerEvent: {}
+[3.512501] (-) TimerEvent: {}
+[3.612915] (-) TimerEvent: {}
+[3.713270] (-) TimerEvent: {}
+[3.813613] (-) TimerEvent: {}
+[3.914104] (-) TimerEvent: {}
+[4.014490] (-) TimerEvent: {}
+[4.114877] (-) TimerEvent: {}
+[4.215363] (-) TimerEvent: {}
+[4.315838] (-) TimerEvent: {}
+[4.416204] (-) TimerEvent: {}
+[4.478502] (local_costmap) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[4.478719] (local_costmap) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[4.478788] (local_costmap) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[4.478845] (local_costmap) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[4.478896] (local_costmap) StderrLine: {'line': b'\n'}
+[4.478998] (local_costmap) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[4.479090] (local_costmap) StderrLine: {'line': b'  any of the following names:\n'}
+[4.479151] (local_costmap) StderrLine: {'line': b'\n'}
+[4.479203] (local_costmap) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[4.479256] (local_costmap) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[4.479307] (local_costmap) StderrLine: {'line': b'\n'}
+[4.479352] (local_costmap) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[4.479381] (local_costmap) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[4.479410] (local_costmap) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[4.479438] (local_costmap) StderrLine: {'line': b'  has been installed.\n'}
+[4.479499] (local_costmap) StderrLine: {'line': b'\n'}
+[4.479542] (local_costmap) StderrLine: {'line': b'\x1b[0m\n'}
+[4.479579] (local_costmap) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[4.479621] (local_costmap) StdoutLine: {'line': b'See also "/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/CMakeOutput.log".\n'}
+[4.483139] (local_costmap) CommandEnded: {'returncode': 1}
+[4.510365] (local_costmap) JobEnded: {'identifier': 'local_costmap', 'rc': 1}
+[4.516310] (-) TimerEvent: {}
+[4.521052] (-) EventReactorShutdown: {}

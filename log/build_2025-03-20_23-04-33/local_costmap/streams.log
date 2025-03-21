@@ -1,0 +1,22 @@
+[0.041s] Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
+[0.259s] [35m[1mConsolidate compiler generated dependencies of target local_costmap[0m
+[0.259s] [100%] Built target local_costmap
+[0.277s] Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
+[0.280s] Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/local_costmap
+[0.298s] -- Install configuration: ""
+[0.299s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/package_run_dependencies/local_costmap
+[0.299s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/parent_prefix_path/local_costmap
+[0.299s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/ament_prefix_path.sh
+[0.300s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/ament_prefix_path.dsv
+[0.300s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/path.sh
+[0.300s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/path.dsv
+[0.300s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.bash
+[0.300s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.sh
+[0.300s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.zsh
+[0.301s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.dsv
+[0.301s] -- Installing: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/package.dsv
+[0.301s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/packages/local_costmap
+[0.302s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/cmake/local_costmapConfig.cmake
+[0.302s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/cmake/local_costmapConfig-version.cmake
+[0.302s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/package.xml
+[0.324s] Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/local_costmap

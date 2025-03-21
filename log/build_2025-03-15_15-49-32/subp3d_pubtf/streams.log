@@ -1,0 +1,22 @@
+[0.206s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robert_kaiyuan/week2practice/install/my_map:/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subp3d_pubtf -- -j16 -l16
+[0.253s] [100%] Built target tf_publisher
+[0.264s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robert_kaiyuan/week2practice/install/my_map:/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subp3d_pubtf -- -j16 -l16
+[0.266s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robert_kaiyuan/week2practice/install/my_map:/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/subp3d_pubtf
+[0.273s] -- Install configuration: ""
+[0.273s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/lib/subp3d_pubtf/tf_publisher
+[0.274s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/ament_index/resource_index/package_run_dependencies/subp3d_pubtf
+[0.275s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/ament_index/resource_index/parent_prefix_path/subp3d_pubtf
+[0.275s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/ament_prefix_path.sh
+[0.276s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/ament_prefix_path.dsv
+[0.276s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/path.sh
+[0.276s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/environment/path.dsv
+[0.277s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.bash
+[0.277s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.sh
+[0.277s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.zsh
+[0.278s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/local_setup.dsv
+[0.279s] -- Installing: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/package.dsv
+[0.279s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/ament_index/resource_index/packages/subp3d_pubtf
+[0.279s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/cmake/subp3d_pubtfConfig.cmake
+[0.279s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/cmake/subp3d_pubtfConfig-version.cmake
+[0.279s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/subp3d_pubtf/share/subp3d_pubtf/package.xml
+[0.280s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robert_kaiyuan/week2practice/install/my_map:/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/subp3d_pubtf

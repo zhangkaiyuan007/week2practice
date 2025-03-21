@@ -1,0 +1,2 @@
+Invoking command in '/home/robert_kaiyuan/week2practice/build/subtf_print': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subtf_print -- -j16 -l16
+Invoked command in '/home/robert_kaiyuan/week2practice/build/subtf_print' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subtf_print -- -j16 -l16

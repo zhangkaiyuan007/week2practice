@@ -1,0 +1,37 @@
+[0.011s] Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
+[0.051s] [35m[1mConsolidate compiler generated dependencies of target local_costmap[0m
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/local_costmap.dir/src/local_costmap.cpp.o[0m
+[5.493s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:[m[K In member function ‘[01m[Kvoid LocalCostmap::process_cloud(std_msgs::msg::Header)[m[K’:
+[5.493s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:208:41:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.493s]   208 |                 if (map_x >= 0 && [01;35m[Kmap_x < costmap.info.width[m[K && map_y >= 0 && map_y < costmap.info.height)
+[5.493s]       |                                   [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[5.493s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:208:85:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.493s]   208 |                 if (map_x >= 0 && map_x < costmap.info.width && map_y >= 0 && [01;35m[Kmap_y < costmap.info.height[m[K)
+[5.493s]       |                                                                               [01;35m[K~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[5.493s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:216:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_width_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.493s]   216 |             for (int x = 0; [01;35m[Kx < costmap.info.width[m[K; x++) {
+[5.493s]       |                             [01;35m[K~~^~~~~~~~~~~~~~~~~~~~[m[K
+[5.493s] [01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:217:35:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Knav_msgs::msg::MapMetaData_<std::allocator<void> >::_height_type[m[K’ {aka ‘[01m[Kunsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[5.493s]   217 |                 for (int y = 0; [01;35m[Ky < costmap.info.height[m[K; y++) {
+[5.493s]       |                                 [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~[m[K
+[13.920s] [100%] [32m[1mLinking CXX executable local_costmap[0m
+[15.361s] [100%] Built target local_costmap
+[15.368s] Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
+[15.375s] Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/local_costmap
+[15.382s] -- Install configuration: ""
+[15.382s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/package_run_dependencies/local_costmap
+[15.382s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/parent_prefix_path/local_costmap
+[15.382s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/ament_prefix_path.sh
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/ament_prefix_path.dsv
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/path.sh
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/path.dsv
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.bash
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.sh
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.zsh
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.dsv
+[15.383s] -- Installing: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/package.dsv
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/packages/local_costmap
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/cmake/local_costmapConfig.cmake
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/cmake/local_costmapConfig-version.cmake
+[15.383s] -- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/package.xml
+[15.385s] Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/local_costmap

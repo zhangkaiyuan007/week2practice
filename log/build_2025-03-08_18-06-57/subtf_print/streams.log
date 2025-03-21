@@ -1,0 +1,53 @@
+[0.035s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subtf_print': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/subtf_print -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/subtf_print
+[0.493s] -- The C compiler identification is GNU 11.4.0
+[1.583s] -- The CXX compiler identification is GNU 11.4.0
+[2.452s] -- Detecting C compiler ABI info
+[2.908s] -- Detecting C compiler ABI info - done
+[2.913s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.929s] -- Detecting C compile features
+[2.930s] -- Detecting C compile features - done
+[2.936s] -- Detecting CXX compiler ABI info
+[3.433s] -- Detecting CXX compiler ABI info - done
+[3.438s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.438s] -- Detecting CXX compile features
+[3.438s] -- Detecting CXX compile features - done
+[3.446s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.578s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.681s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[3.995s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.001s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.015s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.034s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.054s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.114s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.118s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.366s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.644s] -- Found FastRTPS: /opt/ros/humble/include  
+[13.169s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[13.223s] -- Looking for pthread.h
+[13.576s] -- Looking for pthread.h - found
+[13.577s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[13.967s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[13.968s] -- Found Threads: TRUE  
+[14.072s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[14.178s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[14.178s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/robert_kaiyuan/week2practice/src/subtf_print/include>
+[14.178s] -- Configured cppcheck exclude dirs and/or files: 
+[14.179s] -- Added test 'lint_cmake' to check CMake code style
+[14.181s] -- Added test 'uncrustify' to check C / C++ code style
+[14.181s] -- Configured uncrustify additional arguments: 
+[14.182s] -- Added test 'xmllint' to check XML markup files
+[14.184s] -- Configuring done
+[14.193s] -- Generating done
+[14.195s] -- Build files have been written to: /home/robert_kaiyuan/week2practice/build/subtf_print
+[14.205s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subtf_print' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/subtf_print -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/subtf_print
+[14.205s] Invoking command in '/home/robert_kaiyuan/week2practice/build/subtf_print': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subtf_print -- -j16 -l16
+[14.236s] [ 50%] [32mBuilding CXX object CMakeFiles/subtf_print.dir/src/subtf_print.cpp.o[0m
+[15.984s] [01m[K/home/robert_kaiyuan/week2practice/src/subtf_print/src/subtf_print.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/transform_stamped.hpp: No such file or directory
+[15.984s]     4 | #include [01;31m[K<geometry_msgs/msg/transform_stamped.hpp>[m[K
+[15.984s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[15.985s] compilation terminated.
+[15.990s] gmake[2]: *** [CMakeFiles/subtf_print.dir/build.make:76: CMakeFiles/subtf_print.dir/src/subtf_print.cpp.o] Error 1
+[15.990s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/subtf_print.dir/all] Error 2
+[15.991s] gmake: *** [Makefile:146: all] Error 2
+[15.992s] Invoked command in '/home/robert_kaiyuan/week2practice/build/subtf_print' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subtf_print -- -j16 -l16

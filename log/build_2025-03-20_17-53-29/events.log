@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.000507] (-) JobUnselected: {'identifier': 'bringup'}
+[0.000546] (-) JobUnselected: {'identifier': 'my_map'}
+[0.000580] (-) JobUnselected: {'identifier': 'subp3d_pubtf'}
+[0.000612] (-) JobUnselected: {'identifier': 'subtf_print'}
+[0.000646] (local_costmap) JobQueued: {'identifier': 'local_costmap', 'dependencies': OrderedDict()}
+[0.000682] (local_costmap) JobStarted: {'identifier': 'local_costmap'}
+[0.007026] (local_costmap) JobProgress: {'identifier': 'local_costmap', 'progress': 'cmake'}
+[0.007870] (local_costmap) JobProgress: {'identifier': 'local_costmap', 'progress': 'build'}
+[0.008780] (local_costmap) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/robert_kaiyuan/week2practice/build/local_costmap', '--', '-j16', '-l16'], 'cwd': '/home/robert_kaiyuan/week2practice/build/local_costmap', 'env': OrderedDict([('USER', 'robert_kaiyuan'), ('GIT_ASKPASS', '/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/robert_kaiyuan'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f832d6fa-703c-4605-ac2b-ed94b0b942d4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/robert_kaiyuan/.vscode-server/extensions/ms-python.debugpy-2025.4.1/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robert_kaiyuan'), ('NAME', 'ThinkPad'), ('WSL_INTEROP', '/run/WSL/435_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/robert_kaiyuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.5.11-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/rober/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Node/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/NetSarang/Xshell 8/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/:/mnt/d/workspaces/Scoop/shims:/mnt/c/Users/rober/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rober/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Net_Program/Net_Ollama:/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.5.11-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/rober/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Node/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/NetSarang/Xshell 8/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/:/mnt/d/workspaces/Scoop/shims:/mnt/c/Users/rober/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rober/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Net_Program/Net_Ollama:/mnt/c/Users/rober/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/tex:/mnt/c/Users/rober/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rober/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/home/robert_kaiyuan/.vscode-server/extensions/ms-python.debugpy-2025.4.1/bundled/scripts/noConfigScripts:/home/robert_kaiyuan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robert_kaiyuan/.vscode-server/extensions/ms-python.debugpy-2025.4.1/.noConfigDebugAdapterEndpoints/endpoint-648064f29ca2937e.txt'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8a493ff4e0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robert_kaiyuan/week2practice/build/local_costmap'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.061493] (local_costmap) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target local_costmap\x1b[0m\n'}
+[0.092563] (local_costmap) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/local_costmap.dir/src/local_costmap.cpp.o\x1b[0m\n'}
+[0.099791] (-) TimerEvent: {}
+[0.200163] (-) TimerEvent: {}
+[0.300571] (-) TimerEvent: {}
+[0.400998] (-) TimerEvent: {}
+[0.501445] (-) TimerEvent: {}
+[0.601862] (-) TimerEvent: {}
+[0.702245] (-) TimerEvent: {}
+[0.802666] (-) TimerEvent: {}
+[0.903103] (-) TimerEvent: {}
+[1.003592] (-) TimerEvent: {}
+[1.104153] (-) TimerEvent: {}
+[1.204574] (-) TimerEvent: {}
+[1.304985] (-) TimerEvent: {}
+[1.405380] (-) TimerEvent: {}
+[1.505877] (-) TimerEvent: {}
+[1.606315] (-) TimerEvent: {}
+[1.706705] (-) TimerEvent: {}
+[1.807074] (-) TimerEvent: {}
+[1.907493] (-) TimerEvent: {}
+[2.007931] (-) TimerEvent: {}
+[2.108352] (-) TimerEvent: {}
+[2.208783] (-) TimerEvent: {}
+[2.309235] (-) TimerEvent: {}
+[2.409654] (-) TimerEvent: {}
+[2.510101] (-) TimerEvent: {}
+[2.610522] (-) TimerEvent: {}
+[2.710917] (-) TimerEvent: {}
+[2.811283] (-) TimerEvent: {}
+[2.911751] (-) TimerEvent: {}
+[3.012465] (-) TimerEvent: {}
+[3.113023] (-) TimerEvent: {}
+[3.213575] (-) TimerEvent: {}
+[3.314210] (-) TimerEvent: {}
+[3.414675] (-) TimerEvent: {}
+[3.515098] (-) TimerEvent: {}
+[3.615648] (-) TimerEvent: {}
+[3.716292] (-) TimerEvent: {}
+[3.816771] (-) TimerEvent: {}
+[3.917360] (-) TimerEvent: {}
+[4.018071] (-) TimerEvent: {}
+[4.118674] (-) TimerEvent: {}
+[4.219318] (-) TimerEvent: {}
+[4.319839] (-) TimerEvent: {}
+[4.420301] (-) TimerEvent: {}
+[4.520807] (-) TimerEvent: {}
+[4.621317] (-) TimerEvent: {}
+[4.721767] (-) TimerEvent: {}
+[4.822173] (-) TimerEvent: {}
+[4.922617] (-) TimerEvent: {}
+[5.023073] (-) TimerEvent: {}
+[5.123537] (-) TimerEvent: {}
+[5.224083] (-) TimerEvent: {}
+[5.306076] (local_costmap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid LocalCostmap::process_cloud(std_msgs::msg::Header)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.306487] (local_costmap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:208:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.306592] (local_costmap) StderrLine: {'line': b'  208 |                 if (\x1b[01;35m\x1b[Kmap_x >= 0\x1b[m\x1b[K && map_x < costmap.info.width && map_y >= 0 && map_y < costmap.info.height)\n'}
+[5.306658] (local_costmap) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.306691] (local_costmap) StderrLine: {'line': b'\x1b[01m\x1b[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:208:71:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kcomparison of unsigned expression in \xe2\x80\x98\x1b[01m\x1b[K>= 0\x1b[m\x1b[K\xe2\x80\x99 is always true [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits\x07-Wtype-limits\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.306724] (local_costmap) StderrLine: {'line': b'  208 |                 if (map_x >= 0 && map_x < costmap.info.width && \x1b[01;35m\x1b[Kmap_y >= 0\x1b[m\x1b[K && map_y < costmap.info.height)\n'}
+[5.306755] (local_costmap) StderrLine: {'line': b'      |                                                                 \x1b[01;35m\x1b[K~~~~~~^~~~\x1b[m\x1b[K\n'}
+[5.324217] (-) TimerEvent: {}
+[5.424663] (-) TimerEvent: {}
+[5.525117] (-) TimerEvent: {}
+[5.625597] (-) TimerEvent: {}
+[5.726063] (-) TimerEvent: {}
+[5.826504] (-) TimerEvent: {}
+[5.926915] (-) TimerEvent: {}
+[6.027373] (-) TimerEvent: {}
+[6.127766] (-) TimerEvent: {}
+[6.228126] (-) TimerEvent: {}
+[6.328529] (-) TimerEvent: {}
+[6.428909] (-) TimerEvent: {}
+[6.529273] (-) TimerEvent: {}
+[6.629643] (-) TimerEvent: {}
+[6.730035] (-) TimerEvent: {}
+[6.830422] (-) TimerEvent: {}
+[6.930853] (-) TimerEvent: {}
+[7.031261] (-) TimerEvent: {}
+[7.131727] (-) TimerEvent: {}
+[7.232164] (-) TimerEvent: {}
+[7.332534] (-) TimerEvent: {}
+[7.433014] (-) TimerEvent: {}
+[7.533513] (-) TimerEvent: {}
+[7.633921] (-) TimerEvent: {}
+[7.734311] (-) TimerEvent: {}
+[7.834749] (-) TimerEvent: {}
+[7.935115] (-) TimerEvent: {}
+[8.035469] (-) TimerEvent: {}
+[8.135810] (-) TimerEvent: {}
+[8.236222] (-) TimerEvent: {}
+[8.336605] (-) TimerEvent: {}
+[8.436990] (-) TimerEvent: {}
+[8.537400] (-) TimerEvent: {}
+[8.637947] (-) TimerEvent: {}
+[8.738388] (-) TimerEvent: {}
+[8.838811] (-) TimerEvent: {}
+[8.939268] (-) TimerEvent: {}
+[9.039761] (-) TimerEvent: {}
+[9.140204] (-) TimerEvent: {}
+[9.240702] (-) TimerEvent: {}
+[9.341146] (-) TimerEvent: {}
+[9.441545] (-) TimerEvent: {}
+[9.542002] (-) TimerEvent: {}
+[9.642417] (-) TimerEvent: {}
+[9.742939] (-) TimerEvent: {}
+[9.843435] (-) TimerEvent: {}
+[9.943937] (-) TimerEvent: {}
+[10.044403] (-) TimerEvent: {}
+[10.144893] (-) TimerEvent: {}
+[10.245351] (-) TimerEvent: {}
+[10.345798] (-) TimerEvent: {}
+[10.446236] (-) TimerEvent: {}
+[10.546699] (-) TimerEvent: {}
+[10.647143] (-) TimerEvent: {}
+[10.747610] (-) TimerEvent: {}
+[10.848044] (-) TimerEvent: {}
+[10.948511] (-) TimerEvent: {}
+[11.048962] (-) TimerEvent: {}
+[11.149438] (-) TimerEvent: {}
+[11.249966] (-) TimerEvent: {}
+[11.350409] (-) TimerEvent: {}
+[11.450869] (-) TimerEvent: {}
+[11.551325] (-) TimerEvent: {}
+[11.651771] (-) TimerEvent: {}
+[11.752323] (-) TimerEvent: {}
+[11.852825] (-) TimerEvent: {}
+[11.953390] (-) TimerEvent: {}
+[12.053880] (-) TimerEvent: {}
+[12.154357] (-) TimerEvent: {}
+[12.254797] (-) TimerEvent: {}
+[12.355250] (-) TimerEvent: {}
+[12.455699] (-) TimerEvent: {}
+[12.556186] (-) TimerEvent: {}
+[12.656639] (-) TimerEvent: {}
+[12.757085] (-) TimerEvent: {}
+[12.857479] (-) TimerEvent: {}
+[12.957921] (-) TimerEvent: {}
+[13.058367] (-) TimerEvent: {}
+[13.158776] (-) TimerEvent: {}
+[13.259233] (-) TimerEvent: {}
+[13.359692] (-) TimerEvent: {}
+[13.460193] (-) TimerEvent: {}
+[13.560811] (-) TimerEvent: {}
+[13.661319] (-) TimerEvent: {}
+[13.703456] (local_costmap) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable local_costmap\x1b[0m\n'}
+[13.761475] (-) TimerEvent: {}
+[13.861861] (-) TimerEvent: {}
+[13.962215] (-) TimerEvent: {}
+[14.062559] (-) TimerEvent: {}
+[14.162978] (-) TimerEvent: {}
+[14.263368] (-) TimerEvent: {}
+[14.363744] (-) TimerEvent: {}
+[14.464238] (-) TimerEvent: {}
+[14.564682] (-) TimerEvent: {}
+[14.665112] (-) TimerEvent: {}
+[14.765452] (-) TimerEvent: {}
+[14.865840] (-) TimerEvent: {}
+[14.966193] (-) TimerEvent: {}
+[15.011948] (local_costmap) StdoutLine: {'line': b'[100%] Built target local_costmap\n'}
+[15.022709] (local_costmap) CommandEnded: {'returncode': 0}
+[15.024394] (local_costmap) JobProgress: {'identifier': 'local_costmap', 'progress': 'install'}
+[15.031309] (local_costmap) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/robert_kaiyuan/week2practice/build/local_costmap'], 'cwd': '/home/robert_kaiyuan/week2practice/build/local_costmap', 'env': OrderedDict([('USER', 'robert_kaiyuan'), ('GIT_ASKPASS', '/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/robert_kaiyuan'), ('TERM_PROGRAM_VERSION', '1.98.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-f832d6fa-703c-4605-ac2b-ed94b0b942d4.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/node'), ('PYDEVD_DISABLE_FILE_VALIDATION', '1'), ('BUNDLED_DEBUGPY_PATH', '/home/robert_kaiyuan/.vscode-server/extensions/ms-python.debugpy-2025.4.1/bundled/libs/debugpy'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'robert_kaiyuan'), ('NAME', 'ThinkPad'), ('WSL_INTEROP', '/run/WSL/435_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/usr/local/lib/pkgconfig:'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/robert_kaiyuan/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/robert_kaiyuan/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.5.11-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/rober/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Node/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/NetSarang/Xshell 8/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/:/mnt/d/workspaces/Scoop/shims:/mnt/c/Users/rober/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rober/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Net_Program/Net_Ollama:/mnt/c/Program Files/Eclipse Adoptium/jdk-21.0.5.11-hotspot/bin:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Users/rober/AppData/Local/Programs/cursor/resources/app/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/d/Node/:/mnt/c/Program Files/mingw64/bin:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files (x86)/NetSarang/Xshell 8/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/Scripts/:/mnt/c/Users/rober/AppData/Local/Programs/Python/Python312/:/mnt/d/workspaces/Scoop/shims:/mnt/c/Users/rober/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rober/AppData/Roaming/npm:/mnt/c/Program Files/JetBrains/PyCharm Community Edition 2024.2.4/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/d/Net_Program/Net_Ollama:/mnt/c/Users/rober/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/tex:/mnt/c/Users/rober/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/rober/AppData/Local/Programs/cursor/resources/app/bin:/snap/bin:/home/robert_kaiyuan/.vscode-server/extensions/ms-python.debugpy-2025.4.1/bundled/scripts/noConfigScripts:/home/robert_kaiyuan/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('VSCODE_DEBUGPY_ADAPTER_ENDPOINTS', '/home/robert_kaiyuan/.vscode-server/extensions/ms-python.debugpy-2025.4.1/.noConfigDebugAdapterEndpoints/endpoint-648064f29ca2937e.txt'), ('LANG', 'en_US.UTF-8'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-8a493ff4e0.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/robert_kaiyuan/week2practice/build/local_costmap'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'VSCODE_WSL_EXT_LOCATION/up'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[15.036477] (local_costmap) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[15.036738] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/package_run_dependencies/local_costmap\n'}
+[15.036971] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/parent_prefix_path/local_costmap\n'}
+[15.037179] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/ament_prefix_path.sh\n'}
+[15.037353] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/ament_prefix_path.dsv\n'}
+[15.037507] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/path.sh\n'}
+[15.037583] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/path.dsv\n'}
+[15.037746] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.bash\n'}
+[15.037841] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.sh\n'}
+[15.037886] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.zsh\n'}
+[15.037944] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.dsv\n'}
+[15.037980] (local_costmap) StdoutLine: {'line': b'-- Installing: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/package.dsv\n'}
+[15.038011] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/packages/local_costmap\n'}
+[15.038056] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/cmake/local_costmapConfig.cmake\n'}
+[15.038084] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/cmake/local_costmapConfig-version.cmake\n'}
+[15.038122] (local_costmap) StdoutLine: {'line': b'-- Up-to-date: /home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/package.xml\n'}
+[15.038931] (local_costmap) CommandEnded: {'returncode': 0}
+[15.051899] (local_costmap) JobEnded: {'identifier': 'local_costmap', 'rc': 0}
+[15.052992] (-) EventReactorShutdown: {}

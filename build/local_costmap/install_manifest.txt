@@ -1,0 +1,16 @@
+/home/robert_kaiyuan/week2practice/install/local_costmap/lib/local_costmap/local_costmap
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/package_run_dependencies/local_costmap
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/parent_prefix_path/local_costmap
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/ament_prefix_path.sh
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/ament_prefix_path.dsv
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/path.sh
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/environment/path.dsv
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.bash
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.sh
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.zsh
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/local_setup.dsv
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/package.dsv
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/ament_index/resource_index/packages/local_costmap
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/cmake/local_costmapConfig.cmake
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/cmake/local_costmapConfig-version.cmake
+/home/robert_kaiyuan/week2practice/install/local_costmap/share/local_costmap/package.xml

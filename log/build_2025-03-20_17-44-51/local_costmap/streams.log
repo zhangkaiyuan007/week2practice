@@ -1,0 +1,33 @@
+[0.012s] Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/local_costmap -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/local_costmap
+[0.449s] -- The C compiler identification is GNU 11.4.0
+[1.440s] -- The CXX compiler identification is GNU 11.4.0
+[2.043s] -- Detecting C compiler ABI info
+[2.381s] -- Detecting C compiler ABI info - done
+[2.385s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.391s] -- Detecting C compile features
+[2.392s] -- Detecting C compile features - done
+[2.395s] -- Detecting CXX compiler ABI info
+[2.717s] -- Detecting CXX compiler ABI info - done
+[2.724s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.725s] -- Detecting CXX compile features
+[2.725s] -- Detecting CXX compile features - done
+[4.477s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[4.478s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[4.478s]   has asked CMake to find a package configuration file provided by
+[4.478s]   "ament_cmake", but CMake did not find one.
+[4.478s] 
+[4.478s]   Could not find a package configuration file provided by "ament_cmake" with
+[4.478s]   any of the following names:
+[4.478s] 
+[4.478s]     ament_cmakeConfig.cmake
+[4.478s]     ament_cmake-config.cmake
+[4.478s] 
+[4.478s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[4.478s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[4.478s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[4.478s]   has been installed.
+[4.478s] 
+[4.478s] [0m
+[4.478s] -- Configuring incomplete, errors occurred!
+[4.478s] See also "/home/robert_kaiyuan/week2practice/build/local_costmap/CMakeFiles/CMakeOutput.log".
+[4.483s] Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '1': /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/local_costmap -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/local_costmap

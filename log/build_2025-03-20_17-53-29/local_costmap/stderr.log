@@ -1,0 +1,7 @@
+[01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:[m[K In member function ‘[01m[Kvoid LocalCostmap::process_cloud(std_msgs::msg::Header)[m[K’:
+[01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:208:27:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  208 |                 if ([01;35m[Kmap_x >= 0[m[K && map_x < costmap.info.width && map_y >= 0 && map_y < costmap.info.height)
+      |                     [01;35m[K~~~~~~^~~~[m[K
+[01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:208:71:[m[K [01;35m[Kwarning: [m[Kcomparison of unsigned expression in ‘[01m[K>= 0[m[K’ is always true [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wtype-limits-Wtype-limits]8;;[m[K]
+  208 |                 if (map_x >= 0 && map_x < costmap.info.width && [01;35m[Kmap_y >= 0[m[K && map_y < costmap.info.height)
+      |                                                                 [01;35m[K~~~~~~^~~~[m[K

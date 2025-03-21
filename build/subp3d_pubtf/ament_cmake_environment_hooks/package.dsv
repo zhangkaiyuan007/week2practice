@@ -1,0 +1,4 @@
+source;share/subp3d_pubtf/local_setup.bash
+source;share/subp3d_pubtf/local_setup.dsv
+source;share/subp3d_pubtf/local_setup.sh
+source;share/subp3d_pubtf/local_setup.zsh
