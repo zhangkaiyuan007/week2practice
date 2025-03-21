@@ -35,16 +35,27 @@ def generate_launch_description():
         arguments=['-entity', 'sam_bot', '-topic', 'robot_description'],
         output='screen'
     )
-    robot_localization_node = launch_ros.actions.Node(
-        package='robot_localization',
-        executable='ekf_node',
-        name='ekf_filter_node',
-        output='screen',
-        parameters=[os.path.join(pkg_share, 'config/ekf.yaml'), {'use_sim_time': LaunchConfiguration('use_sim_time')}]
-    )
     start_gazebo = ExecuteProcess(
         cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so', world_path],
         output='screen'
+    )
+    local_costmap_node = launch_ros.actions.Node(
+        package='local_costmap',
+        executable='local_costmap',
+        name='local_costmap',
+        output='screen',
+    )
+    my_map_node = launch_ros.actions.Node(
+        package='my_map',
+        executable='my_map',
+        name='my_map',
+        output='screen',
+    )
+    subp3d_pubtf_node = launch_ros.actions.Node(
+        package='subp3d_pubtf',
+        executable='tf_publisher',
+        name='subp3d_pubtf',
+        output='screen',
     )
 
     return launch.LaunchDescription([
@@ -65,9 +76,11 @@ def generate_launch_description():
         ),
         # 启动 Gazebo
         start_gazebo,
+        local_costmap_node,
+        my_map_node,
+        subp3d_pubtf_node,
         joint_state_publisher_node,
         robot_state_publisher_node,
         spawn_entity,
-        robot_localization_node,
         rviz_node,
     ])
