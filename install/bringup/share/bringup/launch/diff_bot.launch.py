@@ -47,43 +47,6 @@ def generate_launch_description():
         output='screen'
     )
 
-    joint_state_broadcaster_spawner = launch_ros.actions.Node(
-        package='controller_manager',
-        executable='spawner',
-        arguments=['joint_state_broadcaster', '--controller-manager', '/controller_manager'],
-        output='screen'
-    )
-    drivewhl_l_velocity_controller_spawner = launch_ros.actions.Node(
-        package='controller_manager',
-        executable='spawner',
-        arguments=['drivewhl_l_velocity_controller', '--controller-manager', '/controller_manager'],
-        output='screen'
-    )
-    drivewhl_r_velocity_controller_spawner = launch_ros.actions.Node(
-        package='controller_manager',
-        executable='spawner',
-        arguments=['drivewhl_r_velocity_controller', '--controller-manager', '/controller_manager'],
-        output='screen'
-    )
-
-    # 先 spawn_entity ，再启动 joint_state_broadcaster，
-    # 然后再启动各个轮子的控制器
-    joint_state_broadcaster_event = RegisterEventHandler(
-        event_handler=OnProcessExit(
-            target_action=spawn_entity,
-            on_exit=[joint_state_broadcaster_spawner]
-        )
-    )
-    wheels_controllers_event = RegisterEventHandler(
-        event_handler=OnProcessExit(
-            target_action=joint_state_broadcaster_spawner,
-            on_exit=[
-                drivewhl_l_velocity_controller_spawner,
-                drivewhl_r_velocity_controller_spawner,
-            ]
-        )
-    )
-
     return launch.LaunchDescription([
         DeclareLaunchArgument(
             name='model',
@@ -107,7 +70,4 @@ def generate_launch_description():
         spawn_entity,
         robot_localization_node,
         rviz_node,
-        # 控制器启动顺序
-        joint_state_broadcaster_event,
-        wheels_controllers_event,
     ])
