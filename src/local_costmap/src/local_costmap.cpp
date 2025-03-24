@@ -120,6 +120,7 @@ class LocalCostmap : public rclcpp::Node
             // 地图消息初始化
             nav_msgs::msg::OccupancyGrid costmap;
             costmap.header.frame_id = "base_link";
+            costmap.header.stamp = this->now();
             costmap.info.resolution = resolution;
             costmap.info.width = costmapSize/resolution;
             costmap.info.height = costmapSize/resolution;
@@ -184,12 +185,23 @@ class LocalCostmap : public rclcpp::Node
 
             for (const auto& point : cloud_filtered->points)
             {
-                // 防止出现无效点
                 if (!pcl::isFinite<pcl::PointXYZ>(point)) 
                 {
                     continue;
                 }
+
+                // 计算点在costmap中的坐标
+                int mx = static_cast<int>((point.x - costmap.info.origin.position.x) / resolution);
+                int my = static_cast<int>((point.y - costmap.info.origin.position.y) / resolution);
+
+                // 检查边界
+                if (mx >= 0 && mx < static_cast<int>(costmap.info.width) && my >= 0 && my < static_cast<int>(costmap.info.height))
+                {
+                    unsigned int index = my * costmap.info.width + mx;
+                    costmap.data[index] = 100; // Mark as occupied
+                }
             }
+            
             publisher_raw_costmap->publish(costmap);
 
             // 将局部地图起始点坐标转换为代价地图索引开始值
@@ -202,23 +214,30 @@ class LocalCostmap : public rclcpp::Node
                 global_map_y = static_cast<int>((costmap.info.origin.position.y - origin_y +transform.transform.translation.y) / resolution);
 
                 tf2::doTransform(map_cloud_msg, map_cloud_msg, transform);
-            } catch (tf2::TransformException& ex) {std::deque<sensor_msgs::msg::PointCloud2> cloud_queue;
-                RCLCPP_ERROR(this->get_logger(), "Error transforming point cloud: %s", ex.what());
-                return;
-            }
 
-            for(int x=0;x<costmapSize/resolution;x++)
-            {
-                for(int y=0;y<costmapSize/resolution;y++)
+                for(int x=0;x<costmapSize/resolution;x++)
                 {
-                    unsigned int global_index = (global_map_y + y) * map_width + (global_map_x + x);
-                    unsigned int local_index = y * costmap.info.width + x;
-                    if(global_index<map_width*map_height&&local_index < costmap.info.width * costmap.info.height)
+                    for(int y=0;y<costmapSize/resolution;y++)
                     {
-                        if(occupancy_grid[global_index]==100)
-                            costmap.data[local_index] = 100;
+                        int gx = global_map_x + x;
+                        int gy = global_map_y + y;
+                        if(gx >= 0 && gx < static_cast<int>(map_width) && gy >= 0 && static_cast<int>(map_height))
+                        {
+                            unsigned int global_index = gy * map_width + gx;
+                            unsigned int local_index = y * costmap.info.width + x;
+                    
+                            if(costmap.data[local_index] != 100 && occupancy_grid[global_index] == 100)
+                            {
+                                costmap.data[local_index] = occupancy_grid[global_index];
+                            }
+                        }
                     }
                 }
+            } 
+            catch (tf2::TransformException& ex)
+            {
+                RCLCPP_ERROR(this->get_logger(), "TF Error: %s", ex.what());
+                return;
             }
 
             // 发布局部代价地图

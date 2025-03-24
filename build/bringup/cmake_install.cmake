@@ -47,7 +47,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     "/home/robert_kaiyuan/week2practice/src/bringup/src"
     "/home/robert_kaiyuan/week2practice/src/bringup/launch"
     "/home/robert_kaiyuan/week2practice/src/bringup/rviz"
-    "/home/robert_kaiyuan/week2practice/src/bringup/config"
     "/home/robert_kaiyuan/week2practice/src/bringup/world"
     )
 endif()
