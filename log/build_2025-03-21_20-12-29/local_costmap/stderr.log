@@ -1,4 +1,0 @@
-[01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:[m[K In member function ‘[01m[Kvoid LocalCostmap::topic_callback_laser(sensor_msgs::msg::LaserScan_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/robert_kaiyuan/week2practice/src/local_costmap/src/local_costmap.cpp:216:36:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kunsigned int[m[K’ and ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
-  216 |                     if([01;35m[Kglobal_index<map_width*map_height[m[K&&local_index < costmap.info.width * costmap.info.height)
-      |                        [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~[m[K

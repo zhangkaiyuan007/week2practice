@@ -1,4 +1,0 @@
-Invoking command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subp3d_pubtf -- -j16 -l16
-Invoked command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/subp3d_pubtf -- -j16 -l16
-Invoking command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/subp3d_pubtf
-Invoked command in '/home/robert_kaiyuan/week2practice/build/subp3d_pubtf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/robert_kaiyuan/week2practice/build/subp3d_pubtf

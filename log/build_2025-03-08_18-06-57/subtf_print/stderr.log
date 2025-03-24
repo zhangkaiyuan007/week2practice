@@ -1,7 +1,0 @@
-[01m[K/home/robert_kaiyuan/week2practice/src/subtf_print/src/subtf_print.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Kgeometry_msgs/msg/transform_stamped.hpp: No such file or directory
-    4 | #include [01;31m[K<geometry_msgs/msg/transform_stamped.hpp>[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/subtf_print.dir/build.make:76: CMakeFiles/subtf_print.dir/src/subtf_print.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/subtf_print.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,2 +1,0 @@
-Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/local_costmap -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/local_costmap
-Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '1': /usr/bin/cmake /home/robert_kaiyuan/week2practice/src/local_costmap -DCMAKE_INSTALL_PREFIX=/home/robert_kaiyuan/week2practice/install/local_costmap

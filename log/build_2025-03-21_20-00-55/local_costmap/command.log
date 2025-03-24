@@ -1,2 +1,0 @@
-Invoking command in '/home/robert_kaiyuan/week2practice/build/local_costmap': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robert_kaiyuan/week2practice/install/my_map:/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
-Invoked command in '/home/robert_kaiyuan/week2practice/build/local_costmap' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/robert_kaiyuan/week2practice/install/my_map:/opt/ros/humble /usr/bin/cmake --build /home/robert_kaiyuan/week2practice/build/local_costmap -- -j16 -l16
