@@ -1,8 +1,0 @@
-source;share/subp3d_pubtf/hook/cmake_prefix_path.ps1
-source;share/subp3d_pubtf/hook/cmake_prefix_path.dsv
-source;share/subp3d_pubtf/hook/cmake_prefix_path.sh
-source;share/subp3d_pubtf/local_setup.bash
-source;share/subp3d_pubtf/local_setup.dsv
-source;share/subp3d_pubtf/local_setup.ps1
-source;share/subp3d_pubtf/local_setup.sh
-source;share/subp3d_pubtf/local_setup.zsh
